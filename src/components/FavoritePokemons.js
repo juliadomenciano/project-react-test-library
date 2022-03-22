@@ -1,10 +1,10 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-
+import React from 'react';
 import { pokemonType } from '../types';
+import './favorite-pokemons.css';
 import Pokemon from './Pokemon';
 
-import './favorite-pokemons.css';
+
 
 const ZERO = 0;
 
