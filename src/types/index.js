@@ -4,7 +4,7 @@ import {
   number,
   objectOf,
   shape,
-  string,
+  string
 } from 'prop-types';
 
 export const isPokemonFavoriteByIdType = objectOf(bool);

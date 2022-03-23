@@ -1,10 +1,10 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-
+import React from 'react';
 import { isPokemonFavoriteByIdType, pokemonType } from '../types';
 import Button from './Button';
-import Pokemon from './Pokemon';
 import './pokedex.css';
+import Pokemon from './Pokemon';
+
 
 class Pokedex extends React.Component {
   constructor(props) {
