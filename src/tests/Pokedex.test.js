@@ -104,6 +104,13 @@ describe('Testando o componente About.', () => {
     const allButton = screen.getByText('All');
 
     expect(filters).toHaveLength(num);
+    expect(filters[0]).toHaveTextContent('Electric');
+    expect(filters[1]).toHaveTextContent('Fire');
+    expect(filters[2]).toHaveTextContent('Bug');
+    expect(filters[3]).toHaveTextContent('Poison');
+    expect(filters[4]).toHaveTextContent('Psychic');
+    expect(filters[5]).toHaveTextContent('Normal');
+    expect(filters[6]).toHaveTextContent('Dragon');
     expect(allButton).toBeInTheDocument();
   });
 
