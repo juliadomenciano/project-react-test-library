@@ -78,9 +78,10 @@ describe('Testando o componente About.', () => {
       />,
     );
 
-    const star = screen.getAllByRole('img',
-      { src: '/star-icon.svg', alt: 'Pikachu is marked as favorite' });
+    const star = screen.getByAltText('Pikachu is marked as favorite');
+    console.log(star.src);
 
-    expect(star[1]).toBeInTheDocument();
+    expect(star).toBeInTheDocument();
+    expect(star.src).toContain('/star-icon.svg');
   });
 });
