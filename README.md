@@ -7,6 +7,14 @@ React Testing Library project developed during the trybe software development co
 
 In this project, tests were developed with React-Testing-Library for a React application provided by Trybe.
 
+## Tools
+
+* JavaScript ES6
+* React
+* React Testing Library
+* Jest
+* Stryker
+
 
 ## Skills developed
 
